@@ -1,0 +1,14 @@
+{
+  "name": "shopware-qa-automation",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Guest checkout E2E test for the Shopware 6 demo storefront",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.57.0"
+  }
+}
